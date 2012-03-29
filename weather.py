@@ -27,7 +27,7 @@ def main():
     # I could be missing some weather
     wconditions = { 'Clear': "☉",
                     'Chance of Rain': "☂",
-                    'Sunny': "?",
+                    'Sunny': "☼",
                     'Mostly Sunny': "?",
                     'Partly Cloudy': "☁?",
                     'Mostly Cloudy': "☁☁",
