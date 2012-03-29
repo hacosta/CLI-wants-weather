@@ -10,7 +10,6 @@ weather()
 {
 	last_run=$(stat -c %Y ~/.weather)
 	if [ $(( $last_run + $poll_every )) -lt $(now) ]; then
-		echo calling!
 		$(weather.py > ~/.weather)
 	fi
 	cat ~/.weather
