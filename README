@@ -1,12 +1,16 @@
+==== A Short Story ====
 My zsh prompt starts with a cute cloud. 
-I have nothing agains clouds. I like clouds...
+I have nothing against clouds. I like clouds...
 But this one was a little bit useless.
 So I said to myself: Myself, Why don't you put the current weather condition in your prompt?
 And that's how this happened.
 
+==== Notes ====
 The scripts connects to google an asks for the weather in a particular zipcode.
 You can replace the zipcode with the name of a city and it should also work.
 
 Personaly I have cron job running every 1/2 h storing the weather into my $WEATHER env var...
 But you could do something useful in many other ways.
 
+
+The code is the documentation ;)
